@@ -1,0 +1,27 @@
+.box{
+    display: inline-block; /*Controla estruturas, block hacia abajo e inline block sera en linea*/
+    width: 100px; /*Ancho*/
+    height: 100px;/*Altura*/
+    background: pink; /*Fondo*/
+    color: white;/*Color texto*/
+}
+#two{
+    position: absolute; 
+    /*static, absolute (se va al menu),relative (se va hacia abajo), 
+    fixed (se mueve hacia abajo) y sticky (regresa a su lugar)*/
+    top: 20px;
+    left: 20px;
+    background: palevioletred;
+}
+.texto1{
+    width: 600px;
+    height: 400px;
+    overflow: visible;/*de que manera se vera el contenido: visible, hidden, scroll y auto*/
+    padding-left: 150px;/*espacio entre*/
+}
+#three{
+    position: relative; 
+    top: 20px;
+    left: 20px;
+    background: rebeccapurple;
+}
